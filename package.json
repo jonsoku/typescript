@@ -1,0 +1,12 @@
+{
+  "name": "typescript",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/jonsoku/typescript.git",
+  "author": "jongseok <the2792@gmail.com>",
+  "license": "MIT",
+  "scripts":{
+    "start":"node index.js",
+    "prestart": "tsc"
+  }
+}
