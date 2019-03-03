@@ -5,8 +5,13 @@
   "repository": "https://github.com/jonsoku/typescript.git",
   "author": "jongseok <the2792@gmail.com>",
   "license": "MIT",
-  "scripts":{
-    "start":"node index.js",
-    "prestart": "tsc"
+  "scripts": {
+    "start": "tsc-watch --onSuccess \" node dist/index.js\" "
+  },
+  "devDependencies": {
+    "tsc-watch": "^2.1.2"
+  },
+  "dependencies": {
+    "typescript": "^3.3.3333"
   }
 }
